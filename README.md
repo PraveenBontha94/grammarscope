@@ -32,15 +32,15 @@
 
 ### 1. Create & Activate Virtual Environment
 
-```bash
-python -m venv venv
-# Windows
-venv\Scripts\activate
-# Linux/Mac
-source venv/bin/activate
+  ```bash
+  python -m venv venv
+  # Windows
+  venv\Scripts\activate
+  # Linux/Mac
+  source venv/bin/activate
 
-pip install -r requirements.txt
-'''
+  pip install -r requirements.txt
+  '''
 ###Model Training (Optional)
 
 To fine-tune the T5 model from scratch on your dataset:
