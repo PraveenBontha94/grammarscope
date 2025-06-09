@@ -17,14 +17,27 @@
 -  Leverages **T5 transformer model** for ML-based grammar correction  
 -  Clean UI with dark theme using **Flask + HTML + CSS**  
 -  Rule-based fallback with LanguageTool integration (optional)
+'''
+---grammarscope/
+├── app/
+│   ├── app.py                 # Flask application entry point
+│   ├── templates/
+│   │   └── index.html         # UI template for Flask
+│   ├── static/
+│   │   └── style.css          # Custom CSS styles (optional)
+│   └── utils/
+│       └── grammar_utils.py   # Grammar correction logic and model loading
+├── data/
+│   └── processed/
+│       └── dataset.csv        # Preprocessed training data
+├── models/
+│   └── grammar_corrector_t5/ # Fine-tuned T5 model files (excluded from repo)
+├── logs/                      # Training logs directory
+└── README.md                  # Project documentation
+
 
 ---
-
-##  Project Structure
-<pre> ```plaintext grammarscope/ ├── app/ │ ├── app.py # Flask application entry point │ ├── templates/ │ │ └── index.html # UI template for Flask │ ├── static/ │ │ └── style.css # Custom CSS styles (optional) │ └── utils/ │ └── grammar_utils.py # Grammar correction logic and model loading ├── data/ │ └── processed/ │ └── dataset.csv # Preprocessed training data ├── models/ │ └── grammar_corrector_t5/ # Fine-tuned T5 model files (excluded from repo) ├── logs/ # Training logs directory └── README.md # Project documentation ``` </pre>
-
----
-
+'''
 ## Installation
 
 1. Clone the repository:
