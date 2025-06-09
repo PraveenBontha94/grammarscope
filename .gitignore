@@ -1,0 +1,32 @@
+# Ignore model files (large files)
+models/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Environment folders
+venv/
+env/
+.env
+
+# Logs
+logs/
+*.log
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode settings folder
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Other common ignores
+*.swp
